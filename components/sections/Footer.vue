@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:flex flex-wrap md:justify-center">
+  <div class="sm:flex flex-wrap md:justify-center bg-black text-white">
     <div class="m-8" v-for="(column, title) in footerSchema">
       <h4 class="capitalize font-semibold">{{ title }}</h4>
       <div class="flex md:block">
