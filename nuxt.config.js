@@ -1,9 +1,18 @@
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+      router: {
+        base: '/blackhawkforce/'
+      }
+    }
+    : {}
 
 export default {
   mode: 'spa',
   /*
   ** Headers of the page
   */
+  ...routerBase,
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -41,15 +50,17 @@ export default {
   ** Build configuration
   */
   build: {
+    devtools:
+      process.env.DEPLOY_ENV === 'GH_PAGES' ? 'source-map' : 'eval-source-map',
+    extractCSS: true,
     postcss: {
       plugins: {
         tailwindcss: './tailwind.config.js'
       }
     },
     /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-    }
+     ** You can extend webpack config here
+     */
+    extend(config, ctx) {}
   }
 }
