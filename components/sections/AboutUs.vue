@@ -11,9 +11,9 @@
         <div class="container relative mx-auto">
           <div class="items-center flex flex-wrap">
             <div class="w-full px-4 ml-auto mr-auto text-center">
-              <div class="pr-12 text-white">
+              <div class="text-white">
 
-                <h1 class="text-5xl text-center uppercase font-semibold tracking-wide"> Blackhawk<span class="text-red-700">Force</span> <span class="hidden sm:inline text-lg font-bold">(SDN BHD)</span> </h1>
+                <h1 class="text-3xl text-center uppercase font-semibold tracking-wide"> Blackhawk<span class="text-red-700">Force</span> <span class="hidden sm:inline text-lg font-bold">(SDN BHD)</span> </h1>
       <p class="text-lg md:text-xl text-center uppercase tracking-wide pt-6">The Private and Personalised choice <br/> For all your security needs</p>
               </div>
             </div>
