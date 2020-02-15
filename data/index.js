@@ -1,3 +1,3 @@
-import SomeData from "./data.json";
+import wwd from "./wwd.json";
 
-export default { SomeData };
+export default { wwd };
