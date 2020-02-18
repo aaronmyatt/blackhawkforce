@@ -6,10 +6,10 @@
         <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
           With countless years of successful security, business and police force experience, Blackhawk Force has an unparalleled advantage over the competition.
         </p>
-        <a
-          href="https://www.creative-tim.com/framework/tailwind-starter-kit"
-          class="font-bold text-gray-800 mt-8">
-        Learn More</a>
+<!--        <a-->
+<!--          href="https://www.creative-tim.com/framework/tailwind-starter-kit"-->
+<!--          class="font-bold text-gray-800 mt-8">-->
+<!--        Learn More</a>-->
       </div>
       <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
         <div
@@ -17,7 +17,7 @@
         >
           <img
             alt="..."
-            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80"
+            src="/personel/event_security.jpg"
             class="w-full align-middle rounded-t-lg"
           />
           <blockquote class="relative p-8 mb-4">
@@ -28,13 +28,14 @@
               class="absolute left-0 w-full block"
               style="height: 95px; top: -94px;"
             >
-              <polygon points="-30,95 583,95 583,65" class="text-black fill-current" />
+              <polygon points="0,65, 0,95 583,95" class="text-black fill-current" />
             </svg>
-            <h4 class="text-xl font-bold text-white">Top Notch Services</h4>
+            <h4 class="text-xl font-bold text-white">Professional Rigor</h4>
             <p class="text-md font-light mt-2 text-white">
-              The Arctic Ocean freezes every winter and much of the
-              sea-ice then thaws every summer, and that process will
-              continue whatever happens.
+              We treat every engagement the same.
+            </p>
+            <p class="text-md font-light mt-2 text-white">
+              With absolute professionalism, rigor and attentiveness.
             </p>
           </blockquote>
         </div>

@@ -12,10 +12,11 @@
     </div>
     <div class="flex flex-wrap justify-center container mx-auto">
       <BaseProfile
-        v-for="profile in profiles"
-        :key="profile"
+        v-for="(profile, index) in profiles"
+        :key="index"
         :name="profile.name"
         :role="profile.role"
+        :image="profile.image"
       />
     </div>
   </section>
@@ -34,17 +35,17 @@ export default {
         {
           name: 'Ayub Hamzah',
           role: 'Managing Director',
-          image: ''
+          image: '/headshots/ayub.png'
         },
         {
           name: 'Salleh Husin',
           role: 'Executive Director',
-          image: ''
+          image: '/headshots/salleh.png'
         },
         {
           name: 'Wan Ahmad bin Wan Abas',
           role: 'Executive Director',
-          image: ''
+          image: '/headshots/wan_ahmad.png'
         },
         {
           name: 'Hamizan Shahudin',

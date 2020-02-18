@@ -1,7 +1,7 @@
 <template>
   <nav class="flex items-center justify-between flex-wrap md:flex-no-wrap p-6 bg-black text-white">
     <div class="flex items-center flex-shrink-0 mr-6">
-      <span class="pr-4">LOGO!</span>
+<!--      <span class="pr-4">LOGO!</span>-->
       <span class="font-semibold text-xl tracking-wide uppercase">
         Blackhawk<span class="text-red-700">Force</span>
       </span>
@@ -27,21 +27,21 @@
     >
       <div
         class="text-sm md:text-base md:mr-4"
-        v-for="links in ['Home', 'Services']"
+        v-for="link in links"
       >
         <a
           class="block mt-4 lg:inline-block md:mt-0 mr-4"
         >
-          {{ links }}
+          {{ link }}
         </a>
       </div>
-      <div>
-        <a
-          class="inline-block text-sm px-4 py-2 leading-none border rounded mt-4 md:mt-0"
-          href="#"
-          >Company Profile</a
-        >
-      </div>
+<!--      <div>-->
+<!--        <a-->
+<!--          class="inline-block text-sm px-4 py-2 leading-none border rounded mt-4 md:mt-0"-->
+<!--          href="#"-->
+<!--          >Company Profile</a-->
+<!--        >-->
+<!--      </div>-->
     </div>
   </nav>
 </template>
@@ -51,6 +51,7 @@ export default {
   name: 'Header',
   data() {
     return {
+      links: [],
       mobileNavbarHidden: true
     }
   },

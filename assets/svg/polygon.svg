@@ -1,0 +1,9 @@
+<svg
+  preserveAspectRatio="none"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 583 95"
+  class="absolute left-0 w-full block"
+  style="height: 95px; top: -94px;"
+>
+  <polygon points="0,65, 0,95 583,95" class="text-black fill-current" />
+</svg>

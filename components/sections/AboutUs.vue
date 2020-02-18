@@ -5,17 +5,17 @@
       >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover bg-yellow-600"
-          style='background-image: url("");'
+          style='background-image: url("/hero.png");'
         >
         </div>
         <div class="container relative mx-auto">
           <div class="items-center flex flex-wrap">
             <div class="w-full px-4 ml-auto mr-auto text-center">
-              <div class="text-white">
+<!--              <div class="text-white">-->
 
-                <h1 class="text-3xl text-center uppercase font-semibold tracking-wide"> Blackhawk<span class="text-red-700">Force</span> <span class="hidden sm:inline text-lg font-bold">(SDN BHD)</span> </h1>
-      <p class="text-lg md:text-xl text-center uppercase tracking-wide pt-6">The Private and Personalised choice <br/> For all your security needs</p>
-              </div>
+<!--                <h1 class="text-3xl text-center uppercase font-semibold tracking-wide"> Blackhawk<span class="text-red-700">Force</span> <span class="hidden sm:inline text-lg font-bold">(SDN BHD)</span> </h1>-->
+<!--      <p class="text-lg md:text-xl text-center uppercase tracking-wide pt-6">The Private and Personalised choice <br/> For all your security needs</p>-->
+<!--              </div>-->
             </div>
           </div>
         </div>

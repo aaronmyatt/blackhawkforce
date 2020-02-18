@@ -1,11 +1,11 @@
 <template>
-  <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+  <div class="w-full md:w-6/12 lg:w-1/3 lg:mb-0 mb-12 px-4">
     <div class="px-6">
       <img
         alt="..."
-        src="https://via.placeholder.com/100x100.png"
+        :src="image"
         class="shadow-lg rounded-full max-w-full mx-auto"
-        style="max-width: 120px;"
+        style="max-width: 140px;"
       />
       <div class="pt-6 text-center">
         <h5 class="text-xl font-bold">{{ name }}</h5>
@@ -39,7 +39,8 @@ export default {
   name: 'BaseProfile',
   props: {
     image: {
-      type: String
+      type: String,
+      default: "https://via.placeholder.com/100x100.png"
     },
     name: {
       type: String
