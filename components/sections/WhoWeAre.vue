@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap justify-center text-center mb-24">
         <div class="w-full lg:w-6/12 px-4">
-          <h2 class="text-4xl font-semibold">Who We Are</h2>
+          <h2 class="text-4xl font-semibold">{{ header }}</h2>
           <p class="text-lg leading-relaxed m-4 text-gray-600">
             ...
           </p>
@@ -29,35 +29,12 @@ export default {
   components: {
     BaseProfile
   },
-  data() {
-    return {
-      profiles: [
-        {
-          name: 'Ayub Hamzah',
-          role: 'Managing Director',
-          image: '/headshots/ayub.png'
-        },
-        {
-          name: 'Salleh Husin',
-          role: 'Executive Director',
-          image: '/headshots/salleh.png'
-        },
-        {
-          name: 'Wan Ahmad bin Wan Abas',
-          role: 'Executive Director',
-          image: '/headshots/wan_ahmad.png'
-        },
-        {
-          name: 'Hamizan Shahudin',
-          role: 'Operation Manager',
-          image: ''
-        },
-        {
-          name: 'Sallehudin Hj Moomin',
-          role: 'Marketing Manager',
-          image: ''
-        }
-      ]
+  computed: {
+    profiles(){
+      return this.$jsonData('our_people').profiles
+    },
+    header(){
+      return this.$jsonData('our_people').header
     }
   }
 }

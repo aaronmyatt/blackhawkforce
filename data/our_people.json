@@ -1,0 +1,30 @@
+{
+  "header": "Our People",
+  "profiles": [
+    {
+      "name": "Ayub Hamzah",
+      "role": "Managing Director",
+      "image": "/headshots/ayub.png"
+    },
+    {
+      "name": "Salleh Husin",
+      "role": "Executive Director",
+      "image": "/headshots/salleh.png"
+    },
+    {
+      "name": "Wan Ahmad bin Wan Abas",
+      "role": "Executive Director",
+      "image": "/headshots/wan_ahmad.png"
+    },
+    {
+      "name": "Ibrahim Kamarulzaman",
+      "role": "Operation Manager",
+      "image": ""
+    },
+    {
+      "name": "Fauziah Hanif",
+      "role": "HR Manager",
+      "image": ""
+    }
+  ]
+}
