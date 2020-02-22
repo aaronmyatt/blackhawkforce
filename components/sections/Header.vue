@@ -1,7 +1,11 @@
 <template>
-  <nav class="flex items-center justify-between flex-wrap md:flex-no-wrap p-6 bg-black text-white">
+  <nav
+    class="flex items-center justify-between flex-wrap md:flex-no-wrap p-6 bg-black text-white"
+  >
     <div class="flex items-center flex-shrink-0 mr-6">
-<!--      <span class="pr-4">LOGO!</span>-->
+      <span class="pr-4">
+        <BaseImg :src="'/bhf_logo_no_background_white.png'" class="w-16"/>
+      </span>
       <span class="font-semibold text-xl tracking-wide uppercase">
         Blackhawk<span class="text-red-700">Force</span>
       </span>
@@ -25,29 +29,28 @@
       :class="{ hidden: mobileNavbarHidden }"
       class="w-full block flex-grow md:flex md:items-center md:justify-end"
     >
-      <div
-        class="text-sm md:text-base md:mr-4"
-        v-for="link in links"
-      >
-        <a
-          class="block mt-4 lg:inline-block md:mt-0 mr-4"
-        >
+      <div class="text-sm md:text-base md:mr-4" v-for="link in links">
+        <a class="block mt-4 lg:inline-block md:mt-0 mr-4">
           {{ link }}
         </a>
       </div>
-<!--      <div>-->
-<!--        <a-->
-<!--          class="inline-block text-sm px-4 py-2 leading-none border rounded mt-4 md:mt-0"-->
-<!--          href="#"-->
-<!--          >Company Profile</a-->
-<!--        >-->
-<!--      </div>-->
+      <!--      <div>-->
+      <!--        <a-->
+      <!--          class="inline-block text-sm px-4 py-2 leading-none border rounded mt-4 md:mt-0"-->
+      <!--          href="#"-->
+      <!--          >Company Profile</a-->
+      <!--        >-->
+      <!--      </div>-->
     </div>
   </nav>
 </template>
 
 <script>
+import BaseImg from '../base/BaseImg'
 export default {
+  components: {
+    BaseImg
+  },
   name: 'Header',
   data() {
     return {
