@@ -4,8 +4,7 @@
     <WhatWeDo />
     <TheRightChoice />
     <WhoWeAre />
-    <!--  How we work  -->
-    <!--  InAction  -->
+    <OurClients />
     <ContactUs />
   </div>
 </template>
@@ -16,6 +15,7 @@ import AboutUs from '../components/sections/AboutUs'
 import WhatWeDo from '../components/sections/WhatWeDo'
 import TheRightChoice from '../components/sections/TheRightChoice'
 import WhoWeAre from '../components/sections/WhoWeAre'
+import OurClients from '../components/sections/OurClients'
 import ContactUs from '../components/sections/ContactUs'
 
 export default {
@@ -24,10 +24,8 @@ export default {
     WhatWeDo,
     TheRightChoice,
     WhoWeAre,
+    OurClients,
     ContactUs
-  },
-  mounted() {
-    console.info(this.$jsonData());
   }
 }
 </script>

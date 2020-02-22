@@ -1,7 +1,7 @@
 <template>
   <div class="m-1">
     <h3 class="capitalize text-2xl font-semibold">{{ title }}</h3>
-    <BaseImg :src="imageSrc" />
+    <BaseImg :src="image" />
     <div class="mt-2">
       <h3 class="capitalize text-2xl font-semibold" v-if="titleBelowImage">
         {{ titleBelowImage }}
@@ -35,7 +35,7 @@ export default {
   props: {
     title: { type: String, default: '' },
     titleBelowImage: { type: String, default: '' },
-    imageSrc: {
+    image: {
       type: String,
       default: 'https://via.placeholder.com/300x300.png'
     },
