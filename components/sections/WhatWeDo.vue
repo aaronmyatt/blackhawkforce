@@ -62,7 +62,7 @@ export default {
   },
   computed: {
     header() {
-      return this.$jsonData('wwd').header1
+      return this.$jsonData('our_services').header
     }
   }
 }
