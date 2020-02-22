@@ -28,7 +28,7 @@
             >
               <div class="flex-auto p-5 lg:p-10">
                 <h4 class="text-2xl font-semibold text-white">
-                  Want to work with us?
+                  Contact Us
                 </h4>
                 <p class="leading-relaxed mt-1 mb-4 text-white">
                   Complete this form and we will get back to you in 24 hours.
