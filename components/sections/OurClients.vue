@@ -10,9 +10,9 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-wrap justify-center container mx-auto">
-      <div v-for="(client, index) in clients" :key="index">
-        <BaseCard :image="client.logo" :title="client.name" :description="''" />
+    <div class="grid grid-cols-4 mx-auto container mb-8" style="line-height: 0;">
+      <div v-for="(client, index) in clients" :key="index" class="w-full h-full bg-white" :class="client.classes">
+        <BaseImg :src="client.logo" class="mx-auto"/>
       </div>
     </div>
   </section>
@@ -30,6 +30,9 @@ export default {
   computed: {
     clients() {
       return this.$jsonData('our_clients').clients
+    },
+    header() {
+      return this.$jsonData('our_clients').header
     }
   }
 }

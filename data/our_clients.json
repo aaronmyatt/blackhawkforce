@@ -1,8 +1,55 @@
 {
+  "header": "Our Clients",
   "clients": [
     {
       "name": "Al Ambia",
-      "logo": "/client_logos/al_ambia.jpg"
+      "logo": "/client_logos/al_ambia.png",
+      "classes": ""
+    },
+    {
+      "name": "CCCC",
+      "logo": "/client_logos/CCCC.gif",
+      "classes": ""
+    },
+    {
+      "name": "CHEC",
+      "logo": "/client_logos/CHEC.png",
+      "classes": ""
+    },
+    {
+      "name": "CRCC",
+      "logo": "/client_logos/CRCC.jpg",
+      "classes": ""
+    },
+    {
+      "name": "Faiza",
+      "logo": "/client_logos/faiza.png",
+      "classes": ""
+    },
+    {
+      "name": "Gamuda",
+      "logo": "/client_logos/gamuda.png",
+      "classes": ""
+    },
+    {
+      "name": "Ibex Coorporation",
+      "logo": "/client_logos/ibex_coorporation.png",
+      "classes": ""
+    },
+    {
+      "name": "Infiniti Stapak Heights",
+      "logo": "/client_logos/Infiniti_stapak_heights.png",
+      "classes": ""
+    },
+    {
+      "name": "KLC",
+      "logo": "/client_logos/KLC.png",
+      "classes": "col-end-3"
+    },
+    {
+      "name": "PPC",
+      "logo": "/client_logos/PPC.jpg",
+      "classes": "col-end-4"
     }
   ]
 }
