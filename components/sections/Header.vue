@@ -4,7 +4,7 @@
   >
     <div class="flex items-center flex-shrink-0 mr-6">
       <span class="pr-4">
-        <BaseImg :src="'/bhf_logo_no_background_white.png'" class="w-16"/>
+        <BaseImg :src="'/bhf_logo_gold_hawk.png'" class="w-16"/>
       </span>
       <span class="font-semibold text-xl tracking-wide uppercase">
         Blackhawk<span class="text-red-700">Force</span>

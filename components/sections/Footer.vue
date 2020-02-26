@@ -1,7 +1,7 @@
 <template>
   <div class="sm:flex flex-wrap md:justify-center bg-black text-white">
     <span class="m-8">
-      <BaseImg :src="'/bhf_logo_no_background_white.png'" class="w-56" />
+      <BaseImg :src="'/bhf_logo_gold_hawk.png'" class="w-56" />
     </span>
     <div class="m-8" v-for="(column, title) in footerSchema">
       <h4 class="capitalize font-semibold">{{ title }}</h4>
