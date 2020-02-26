@@ -23,8 +23,8 @@
               class="w-full align-middle rounded-t-lg"
             />
             <div class="p-4">
-              <h6 class="text-xl font-semibold">{{ product.title }}</h6>
-              <p class="">
+              <h6 class="text-2xl font-bold">{{ product.title }}</h6>
+              <p>
                 {{ product.body }}
               </p>
             </div>
@@ -41,22 +41,18 @@ export default {
     return {
       products: [
         {
-          title: 'Security Personel',
+          title: 'Security Personnel',
           body:
-            'Our guards are hand picked,  professionally  trained and KDN vetted.',
+            'We can supply armed, or unarmed, guards, for any location, scale, terrain or weather. Our security personnel provide 24hour observation, logging, rapid response and are trained for situational awareness which enables them to react appropriately and safely in all scenarios. Our guards are hand-picked, professionally trained and KDN vetted.',
           image: '/personel/security_personel.png'
         },
         {
           title: 'Event Security',
           body:
-            'We provide security and risk assessment services for events of any scale.',
+            'Our security personnel are trained by professionals with effective crowd control strategies to guarantee the risk to staff, equipment and VIP guests are minimised. With countless years of combined police and army experience, we provide our clients with unparalleled risk assessment and mitigation services for events of any nature and scale.',
           image: '/personel/event_security_solo.png'
         },
-        { title: 'Armed Guards', body: '', image: '' },
-        { title: 'Bodyguards', body: '', image: '' },
-        { title: 'Armed and Unarmed Escorts', body: '', image: '' },
-        { title: 'Private Detectives', body: '', image: '' },
-        { title: 'Guard Dogs', body: '', image: '' }
+        { title: 'Bodyguards & Escorts', body: '', image: '' }
       ]
     }
   },
