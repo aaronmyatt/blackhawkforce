@@ -5,7 +5,7 @@
         alt="..."
         :src="image"
         class="shadow-lg rounded-full max-w-full mx-auto"
-        style="max-width: 140px;"
+        style="max-width: 240px;"
       />
       <div class="pt-6 text-center">
         <h5 class="text-xl font-bold">{{ name }}</h5>
