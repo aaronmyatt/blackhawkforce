@@ -34,22 +34,22 @@
     {
       "name": "Ibex Coorporation",
       "logo": "/client_logos/ibex_coorporation.png",
-      "classes": ""
+      "classes": "hidden md:grid"
     },
     {
       "name": "Infiniti Stapak Heights",
       "logo": "/client_logos/Infiniti_stapak_heights.png",
-      "classes": ""
+      "classes": " hidden md:grid"
     },
     {
       "name": "KLC",
       "logo": "/client_logos/KLC.png",
-      "classes": "col-end-3"
+      "classes": "col-end-3 hidden md:grid"
     },
     {
       "name": "PPC",
       "logo": "/client_logos/PPC.jpg",
-      "classes": "col-end-4"
+      "classes": "col-end-4 hidden md:grid"
     }
   ]
 }
