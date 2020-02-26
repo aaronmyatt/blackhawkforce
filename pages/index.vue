@@ -14,7 +14,7 @@
 import AboutUs from '../components/sections/AboutUs'
 import WhatWeDo from '../components/sections/WhatWeDo'
 import TheRightChoice from '../components/sections/TheRightChoice'
-import WhoWeAre from '../components/sections/WhoWeAre'
+import WhoWeAre from '../components/sections/OurPeople'
 import OurClients from '../components/sections/OurClients'
 import ContactUs from '../components/sections/ContactUs'
 
