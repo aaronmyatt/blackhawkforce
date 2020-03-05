@@ -12,6 +12,9 @@
         <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
           {{ role }}
         </p>
+        <p v-if="bio" class="mt-1 text-sm text-gray-300 font-semibold">
+          {{ bio }}
+        </p>
         <div class="mt-6">
           <a
             v-if="linkedin_profile_url"
@@ -46,6 +49,9 @@ export default {
       type: String
     },
     role: {
+      type: String
+    },
+    bio: {
       type: String
     },
     facebook_profile_url: {

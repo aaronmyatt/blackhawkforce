@@ -1,20 +1,24 @@
 {
   "header": "Our People",
+  "description": "Our leadership team has over 70 years of combined experience serving within the Royal Malaysia Police (RMP), and many more years of business experience. We combine a rich skillset honed in the RMP, with the business acumen, structural and architectural knowledge of our Managing Director, to bring a highly effective, value-adding synergy to each project we oversee.",
   "profiles": [
     {
       "name": "Ayub Hamzah",
       "role": "Managing Director",
-      "image": "/headshots/ayub.png"
+      "image": "/headshots/ayub.png",
+      "bio": "Architect and serial entrepreneur"
     },
     {
       "name": "Salleh Husin",
       "role": "Executive Director",
-      "image": "/headshots/salleh.png"
+      "image": "/headshots/salleh.png",
+      "bio": "Police veteran with 37 years experience"
     },
     {
       "name": "Wan Ahmad bin Wan Abas",
       "role": "Operations Director",
-      "image": "/headshots/wan_ahmad.png"
+      "image": "/headshots/wan_ahmad.png",
+      "bio": "Police veteran with 34 years experience"
     }
   ]
 }

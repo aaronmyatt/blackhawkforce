@@ -2,10 +2,10 @@
   <section class="text-white mx-auto py-12 bg-black">
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap justify-center text-center mb-24">
-        <div class="w-full lg:w-6/12 px-4">
+        <div class="w-full lg:w-7/12 px-4">
           <h2 class="text-4xl font-semibold">{{ header }}</h2>
-          <p class="text-lg leading-relaxed m-4 text-gray-600">
-            ...
+          <p class="text-lg leading-relaxed m-4 text-white font-medium">
+            {{ description }}
           </p>
         </div>
       </div>
@@ -17,6 +17,7 @@
         :name="profile.name"
         :role="profile.role"
         :image="profile.image"
+        :bio="profile.bio"
       />
     </div>
   </section>
@@ -35,6 +36,9 @@ export default {
     },
     header(){
       return this.$jsonData('our_people').header
+    },
+    description(){
+      return this.$jsonData('our_people').description
     }
   }
 }

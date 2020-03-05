@@ -1,1 +1,16 @@
-{"header":"Our Services"}
+{
+  "header": "Our Services",
+  "products": [
+    {
+      "title": "Security Personnel",
+      "body": "We can supply Nepalese or local armed/unamrmed guards anywhere in Malaysia. Our guards are hand-picked, professionally trained and KDN vetted.",
+      "image": "/personel/security_personel.png"
+    },
+    {
+      "title": "Event Security",
+      "body": "Our security personnel are trained by professionals with effective crowd control strategies to guarantee the risk to staff, equipment and VIP guests are minimised.",
+      "image": "/personel/event_security_solo.png"
+    },
+    { "title": "Bodyguards & Escorts", "body": "We can provide professional, trained personal or point to point escort protection details.", "image": "" }
+  ]
+}

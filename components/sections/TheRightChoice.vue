@@ -2,9 +2,9 @@
   <section class="container mx-auto mt-8">
     <div class="flex flex-wrap items-center">
       <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
-        <h2 class="text-3xl mb-2 font-semibold leading-normal">Why we are the right choice</h2>
+        <h2 class="text-3xl mb-2 font-semibold leading-normal">Our Mission</h2>
         <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-          With countless years of successful security, business and police force experience, Blackhawk Force has an unparalleled advantage over the competition.
+          At Blackhawk Force Sdn. Bhd, we believe property and peoples rights should be protected as if they were our own. We aim to provide professional and personalised security and risk management services to our clientele and guarantee a level of rigour comparable to the police experience our leadership team brings to each project.
         </p>
 <!--        <a-->
 <!--          href="https://www.creative-tim.com/framework/tailwind-starter-kit"-->

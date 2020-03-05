@@ -4,9 +4,9 @@
       <div class="flex flex-wrap justify-center text-center mb-24">
         <div class="w-full lg:w-6/12 px-4">
           <h2 class="text-4xl font-semibold text-black">{{ header }}</h2>
-          <p class="text-lg leading-relaxed m-4 text-gray-600">
-            ...
-          </p>
+<!--          <p class="text-lg leading-relaxed m-4 text-gray-600">-->
+<!--            ...-->
+<!--          </p>-->
         </div>
       </div>
     </div>
